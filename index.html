@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>UI and Dynamic Content</title>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+	</head>
+	<body>
+		<div class="widget">
+			<header>
+				<img src="img/food.jpg" alt="masthead-image" id="masthead-image">
+				<h1 class="widget-title">Grocery Cart</h1>
+				<hr>
+			</header>
+			<div id="myDIV" class="list">
+				<label for="item" class="main-content">What would you like to buy today?
+				</label>
+				<input type="text" id="myInput" placeholder="Enter Item...">
+				<span onclick="newElement()" class="button">Add</span>
+			</div>
+			<ul id="myUL">
+			</ul>
+			<div class="footer">
+    		<a href="#"><img class="social-media-icon" src="img/fb-icon.png" alt="Facebook"></a>
+      	<a href="#"><img class="social-media-icon" src="img/insta-icon.png" alt="Instagram"></a>
+      	<a href="#"><img class="social-media-icon" src="img/youtube-icon.png" alt="Youtube"></a>
+    	</div>
+		</div>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
